@@ -25,3 +25,6 @@ pip install rembg[gpu,cli]
 pip install kiui
 pip install gradio==4.31.4
 pip install gradio-litmodel3d==0.0.1
+pip install imageio
+
+

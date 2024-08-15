@@ -27,6 +27,7 @@ class LRMGeneratorWrapper:
         self.device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
         self.model.to(self.device)
         self.model.eval()
+        print(self.device)
 
     def forward(self, image, camera):
         return self.model(image, camera)
